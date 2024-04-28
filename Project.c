@@ -11,7 +11,7 @@ struct std{
     int roll_no;
     float gpa;
 };
-void main()
+int main()
 {
     int choice;
     while(choice!=4)
@@ -114,4 +114,5 @@ void searchstudent()
         getch();
     }
     fclose(f);
+    return 0;
 }
